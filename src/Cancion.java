@@ -1,11 +1,13 @@
 public class Cancion {
     private String nombre;
+    private String artista;
     private String fecha;
     private int duracion;
     private String genero;
 
-    public Cancion(String nombre, String fecha, int duracion, String genero) {
+    public Cancion(String nombre, String artista, String fecha, int duracion, String genero) {
         this.nombre = nombre;
+        this.artista = artista;
         this.fecha = fecha;
         this.duracion = duracion;
         this.genero = genero;

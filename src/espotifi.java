@@ -1,7 +1,6 @@
-public class espotifi {
+public interface espotifi {
 
-    private String buscarxnombre;
-
+    String buscarxnombre = "";
 
 
     private void EliminarCancion(int id) {
@@ -9,7 +8,5 @@ public class espotifi {
 
     private void InsertarCancion(int id) {
     }
-
-    public list<Cancion> canciones;
 
 }

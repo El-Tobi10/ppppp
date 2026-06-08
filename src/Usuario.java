@@ -18,15 +18,15 @@ public class Usuario {
     }
 
     public void agregarAmigo(Usuario usuario1, Usuario usuario2){
-        if (sonAmigos(usuario1, usuario2)) return;
+        if (sonAmigos(usuario2)) return;
         usuario1.amigos.add(usuario2);
         usuario2.amigos.add(usuario1);
     }
 
-    public boolean sonAmigos(Usuario usuario1, Usuario usuario2){
-        if (usuario1.amigos.isEmpty() || usuario2.amigos.isEmpty()) return false;
-        for (Usuario user : usuario1.amigos){
-            if (user == usuario2) return true;
+    public boolean sonAmigos(Usuario usuario1){
+        if (amigos.isEmpty()) return false;
+        for (Usuario user : amigos){
+            if (user == usuario1) return true;
         }
         return false;
     }

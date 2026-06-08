@@ -1,3 +1,5 @@
+import java.util.List;
+
 public class espotifi {
 
     private String buscarxnombre;
@@ -10,6 +12,6 @@ public class espotifi {
     private void InsertarCancion(int id) {
     }
 
-    public list<Cancion> canciones;
+    public List<Cancion> canciones;
 
 }

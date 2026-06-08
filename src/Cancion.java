@@ -1,8 +1,8 @@
 public class Cancion {
-    String nombre;
-    String fecha;
-    int duracion;
-    String genero;
+    private String nombre;
+    private String fecha;
+    private int duracion;
+    private String genero;
 
     public Cancion(String nombre, String fecha, int duracion, String genero) {
         this.nombre = nombre;

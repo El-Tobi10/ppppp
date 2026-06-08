@@ -30,4 +30,5 @@ public class Usuario {
         }
         return false;
     }
+    /// grafo no ponderado (por que es unidireccional, al uno aceptar solicitud ya son amigos (mas facebook que instagram))
 }
